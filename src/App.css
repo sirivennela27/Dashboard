@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  color: #1E1E1E;
+  font-family: 'Inter', sans-serif;
+}
+
+.MuiDrawer-paper {
+  background-color: #F5F5F5!important;
+  color: #1E1E1E !important;
+}
+
+
+
+.MuiAppBar-root {
+  background-color:  #F5F5F5  !important;
+  color: #ffffff !important;
+}
+
+.MuiTypography-root {
+  color: #333333 !important;
+}
+
+.MuiListItem-root:hover {
+  background-color:#e7e5e5d3 !important;
+}
+
+/* .MuiTableCell-root {
+  border-bottom: 1px solid #333 !important;
+} */
+
