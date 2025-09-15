@@ -1,12 +1,23 @@
-# React + Vite
+React MUI Dashboard with Flask & SQLite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a dashboard application built using React with Material UI (MUI) for the frontend and Flask with SQLite3 for the backend for managing vehicle data.
 
-Currently, two official plugins are available:
+- **Frontend**: React, Material UI (MUI), Vite
+- **Backend**: Flask (Python)
+- **Database**: SQLite3
+- **API**: RESTful Flask API
+- **State Management**: React Hooks
+- **Styling**: CSS (with MUI theming)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Install Front-end dependencies**
+npm install
 
-## Expanding the ESLint configuration
+**Setup python Backend**
+python -m venv venv
+.\venv\Scripts\Activate
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Run React frontend**
+npm run dev
+
+**Run Backend**
+python app.py
